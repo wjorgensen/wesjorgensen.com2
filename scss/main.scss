@@ -1,3 +1,35 @@
+$background: #05090f;
+$boxes: #0d1116;
+$border: #44484c;
+$text: #818181;
+$green: #5EBD3E;
+$yellow: #FFB900;
+$orange: #F78200;
+$red: #E23838;
+$purple: #973999;
+$blue: #009CDF;
+
+body{
+    background-color: $background;
+    color: $text;
+}
+.logo{
+    height: 10%;
+}
+.container{
+   height: 90%;
+   display: grid;
+   grid-template-rows: repeat(3, 1fr);
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+   align-content: center;
+   row-gap: 1/4fr;
+   column-gap: 1/4fr;
+    .block{
+        border:2px solid $border;
+
+    }
+}
 
 
 /*# sourceMappingURL=main.scss.map */
