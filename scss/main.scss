@@ -23,8 +23,8 @@ body{
    grid-template-columns: repeat(3, 1fr);
    justify-content: center;
    align-content: center;
-   row-gap: 1/4fr;
-   column-gap: 1/4fr;
+   row-gap: 20px;
+   column-gap: 20px;
     .block{
         border:2px solid $border;
 
